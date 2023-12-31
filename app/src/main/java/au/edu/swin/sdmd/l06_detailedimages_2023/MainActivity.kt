@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val vStation = findViewById<TextView>(R.id.station)
         vStation.setOnClickListener {
-
+            //todo
         }
     }
 
