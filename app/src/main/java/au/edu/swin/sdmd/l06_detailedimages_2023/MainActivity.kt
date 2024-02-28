@@ -1,11 +1,9 @@
 package au.edu.swin.sdmd.l06_detailedimages_2023
 
 import android.content.Intent
-import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var station: Location
@@ -26,6 +24,8 @@ class MainActivity : AppCompatActivity() {
             intent.apply {
                 putExtra("name", station.name)
                 putExtra("author", station.author)
+                putExtra("longitude", station.longitude)
+                putExtra("latitude", station.latitude)
             }
 
             // show the detail-activity view

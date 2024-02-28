@@ -1,14 +1,10 @@
 package au.edu.swin.sdmd.l06_detailedimages_2023
 
-import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Switch
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class DetailActivity : AppCompatActivity() {
-    var location: Location? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -22,5 +18,19 @@ class DetailActivity : AppCompatActivity() {
         val vAuthor = findViewById<TextView>(R.id.author)
         val author = intent.getStringExtra("author")
         vAuthor.text = author
+
+        val vLongtitude = findViewById<TextView>(R.id.longitude)
+        val longitude = intent.getFloatExtra("longitude", 0f)
+        vLongtitude.text = when (longitude) {
+            0f -> ""
+            else -> longitude.toString()
+        }
+
+        val vLatitude = findViewById<TextView>(R.id.latitude)
+        val latitude = intent.getFloatExtra("latitude", 0f)
+        vLatitude.text = when (latitude) {
+            0f -> ""
+            else -> latitude.toString()
+        }
     }
 }
