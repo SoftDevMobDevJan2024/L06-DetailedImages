@@ -1,4 +1,4 @@
-package au.edu.swin.sdmd.l06_detailedimages_2023
+package au.edu.swin.sdmd.l06_detailedimages
 
 import android.content.Intent
 import android.graphics.Color
