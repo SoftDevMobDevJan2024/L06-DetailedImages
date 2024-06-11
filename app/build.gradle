@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'au.edu.swin.sdmd.l06_detailedimages_2023'
+    namespace 'au.edu.swin.sdmd.l06_detailedimages'
     compileSdk 33
 
     defaultConfig {
-        applicationId "au.edu.swin.sdmd.l06_detailedimages_2023"
+        applicationId "au.edu.swin.sdmd.l06_detailedimages"
         minSdk 27
         targetSdk 33
         versionCode 1

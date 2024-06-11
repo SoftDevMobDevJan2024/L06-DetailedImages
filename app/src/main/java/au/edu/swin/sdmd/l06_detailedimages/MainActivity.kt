@@ -1,9 +1,9 @@
-package au.edu.swin.sdmd.l06_detailedimages_2023
+package au.edu.swin.sdmd.l06_detailedimages
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import au.edu.swin.sdmd.l06_detailedimages_2023.R
+import au.edu.swin.sdmd.l06_detailedimages.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
