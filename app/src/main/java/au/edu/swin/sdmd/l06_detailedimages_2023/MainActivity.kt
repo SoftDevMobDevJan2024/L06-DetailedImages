@@ -3,7 +3,7 @@ package au.edu.swin.sdmd.l06_detailedimages_2023
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import au.edu.swin.sdmd.l06_detailedimages.R
+import au.edu.swin.sdmd.l06_detailedimages_2023.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
